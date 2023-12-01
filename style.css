@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0;
+
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 80%;
+  /*background: url("https://i.postimg.cc/26X6qQcX/2822855.jpg");
+  background-size: cover;
+
+  background-repeat: no-repeat;*/
+}
+svg {
+  background: url("https://i.postimg.cc/zDWpFx5N/pic1.jpg");
+  background-size: cover;
+  width: 50vmin;
+  height: auto;
+  display: block;
+  margin: 30vmin auto;
+  position: absolute;
+  left: 38%;
+  top: 0%;
+  box-shadow: 0 0 80px 10px rgb(0, 0, 0);
+}
+svg:hover {
+  box-shadow: 0 0 50px 10px rgb(221, 108, 9);
+}
+img {
+  width: 100%;
+  height: 90%;
+  filter: blur(6px);
+}
+text {
+  font-size: 10px;
+  transition: font-size 0.4s ease-out;
+  font-weight: 900;
+  font-family: arial;
+  position: absolute;
+}
+svg:hover text {
+  transition: font-size 0.4s ease-in;
+  font-size: 300px;
+}
